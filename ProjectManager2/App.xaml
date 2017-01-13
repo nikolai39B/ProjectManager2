@@ -4,6 +4,17 @@
              xmlns:local="clr-namespace:ProjectManager2"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries >
+                <ResourceDictionary Source="ResourceDictionaries/ButtonRD.xaml" />
+                <ResourceDictionary Source="ResourceDictionaries/MenuRD.xaml" />
+                <ResourceDictionary Source="ResourceDictionaries/TextBlockRD.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            
+            <!-- User Control -->
+            <Style TargetType="{x:Type UserControl}">
+                <Setter Property="Background" Value="#2d2d30" />
+            </Style>
+        </ResourceDictionary>       
     </Application.Resources>
 </Application>

@@ -15,7 +15,7 @@
         </Setter>
     </Style>
 
-    <Style TargetType="{x:Type Button}">
+    <Style x:Key="test" TargetType="{x:Type Button}">
         <Setter Property="Background" Value="#2d2d30" />
         <Setter Property="SnapsToDevicePixels" Value="True" />
 

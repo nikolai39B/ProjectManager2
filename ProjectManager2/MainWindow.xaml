@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:ProjectManager2"
         mc:Ignorable="d"
         Background="#2d2d30"
-        Title="Project Manager 2" Height="900" Width="1600">
+        Title="Project Manager 2" Height="768" Width="1366">
 </Window>
